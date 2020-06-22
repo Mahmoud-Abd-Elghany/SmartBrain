@@ -1,0 +1,35 @@
+.but{
+    opacity: 0.9;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 32px;
+    animation: gradient 12s ease infinite;
+    background: linear-gradient(90deg,  #750066,#000504, #156380);
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.wid{
+    width: 700px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    border-radius: 4px;
+    border: none;
+}
